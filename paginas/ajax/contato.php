@@ -1,8 +1,8 @@
 <?php
-	$dbhost = "mysql427.umbler.com";
-	$dbuser = "site_etec";
-	$dbpassword = "jhsf200699";
-	$dbdatabase = "etec";
+	$dbhost = ";
+	$dbuser = "";
+	$dbpassword = "";
+	$dbdatabase = "";
 	$conexao = mysqli_connect($dbhost, $dbuser, $dbpassword) or die("<script>location.href=\"http://$siteURL/$PainelA/errodb.php\";</script>");
 	mysqli_select_db($conexao, $dbdatabase) or die("<script>location.href=\"http://$siteURL/$PainelA/errodb.php\";</script>");
 $nome = $_POST['nome'];
