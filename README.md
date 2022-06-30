@@ -9,7 +9,7 @@
 
 ## 💡 Sobre o Projeto
 
-##### 🏫 Etec Leme - é um site institucional aonde sua função é concetrar todas as informações importantes sobre a instituição, tais como Cursos, eventos e noticias. o projeto tem um Sistema de gerenciamento de conteúdo (CMS) aonde um responsavel pode criar, editar, gerenciar e publicar conteúdo.
+##### 🏫 Etec Leme - é um site institucional aonde sua função é concetrar todas as informações importantes sobre a instituição, tais como Cursos, eventos, galeria e noticias. o projeto tem um Sistema de gerenciamento de conteúdo (CMS) aonde um responsavel pode criar, editar, gerenciar e publicar conteúdo.
 
 
 ## Features
