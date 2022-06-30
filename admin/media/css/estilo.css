@@ -1,0 +1,724 @@
+/* Folha CSS Desenvolvida por Gustavo San (facebook.com/gustavosanbr) */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i');
+a{
+    text-decoration-color:none ; 
+    text-decoration-line: none;
+    text-decoration-style: none;
+}
+.perfil {
+    width: 210px;
+    position: relative;
+    margin: 0 auto;
+    line-height: 1.8em;
+    text-align: center;
+    color: #FFF;
+    font-size: 12px;
+}
+.perfil a {
+    color: #FFF;
+}
+.perfil .sub {
+    color: rgba(500,500,500,0.6);
+}
+.perfil .imagem {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+    border-radius: 100px;
+    background-size: cover;
+}
+.perfil .sair {
+    color: #c25656;
+    margin: 10px 0;
+}
+#status_celula-inativo {
+    top: 25px;
+    width: 54px;
+    height: 24px;
+    z-index: 1001;
+    background-color: #c0392b;
+    color: #FFF;
+    font-size: 13px;
+
+    text-align: center;
+    position: relative;
+    margin-left: 63px;
+    padding-top: 5px;
+    float: left;
+    border-radius: 3px;
+}
+body {
+    background-color: #ededed;	
+    margin: 0.0;
+    font-family: 'Montserrat',sans-serif !important;
+    letter-spacing: 1px !important;
+}
+#header {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+    height: 63px;
+    z-index: 999;
+    background-color: #3D4F5F;
+}
+#dados-header {
+    position: relative;
+    margin-left: 40px;
+    top: 0px;
+    width: 530px;
+    height: 63px;
+    z-index: 2;
+}
+#f_d_header {
+    position: absolute;
+    left: 0px;
+    top: 11px;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+    background-size: 100% 100%;
+}
+#t_d_header {
+    position: absolute;
+    left: 53px;
+    top: 12px;
+    width: 202px;
+    height: auto;
+    z-index: 2;
+    color: #FFFFFF;
+    font-size: 13px;
+    text-shadow: rgba(0,0,0,0.4) 1px 0px 0px;
+}
+#menu_lat {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -30px;
+    width: 290px;
+    min-height: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #171717;
+    padding-bottom: 40px;
+}
+#logo_painel {
+    position: relative;
+    margin: auto;
+    width: 128px;
+    height: 19px;
+    z-index: 1000;
+    background: url(../imgs/logo_astro.png) center no-repeat;
+}
+#c_menu {
+    position: relative;
+    left: 0px;
+    margin-top: 10px;
+    width: 290px;
+    height: auto;
+    z-index: 1000;
+    cursor: pointer;
+}
+#menu_c1 {
+    position: relative;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 4px;
+    width: 210px;
+    height: 51px;
+    z-index: 1000;
+    border-bottom: 1px solid #1d1d1d;
+}
+#menu_icone {
+    position: absolute;
+    top: 14px;
+    width: 20px;
+    height: 20px;
+    z-index: 1000;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ICONES MENU */
+.icn-dados {
+    background-image: url(../imgs/menu/dados.png);
+}
+.icn-conteudo {
+    background-image: url(../imgs/menu/conteudo.png);
+}
+.icn-administracao {
+    background-image: url(../imgs/menu/administracao.png);
+}
+/* ICONES MENU */
+
+#menu_1 {
+    position: absolute;
+    top: 14px;
+    width: auto;
+    height: auto;
+    z-index: 1000;
+    color: #FFF;
+    font-size: 14px;
+
+    text-shadow: rgba(0,0,0,0.4) 1px 0px 0px;
+}
+#menu_a {
+    position: absolute;
+    right: 0px;
+    top: 21px;
+    width: 12px;
+    height: 7px;
+    z-index: 1000;
+    background-image: url(../imgs/arrow2.png);
+    background-repeat: no-repeat;
+}
+#menu_c2 {
+    position: relative;
+    margin: auto;
+    margin-top: 17px;
+    width: 245px;
+    height: auto;
+    z-index: 1000;
+    border-radius: 4px;
+    padding-bottom: 16px;
+    display: none;
+}
+#menu_c3 {
+    position: relative;
+    margin: auto;
+    margin-top: 17px;
+    width: 245px;
+    height: auto;
+    z-index: 1000;
+    border-radius: 4px;
+    padding-bottom: 16px;
+    display: none;
+}
+#menu_c4 {
+    position: relative;
+    margin: auto;
+    margin-top: 17px;
+    width: 245px;
+    height: auto;
+    z-index: 1000;
+    border-radius: 4px;
+    padding-bottom: 16px;
+    display: none;
+}
+#sub-menu {
+    position: relative;
+    margin: auto;
+    width: 210px;
+    top: 0px;
+    height: 26px;
+    z-index: 1000;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #888;
+    text-align: left;
+    padding-top: 10px;
+    transition:0.2s;
+    -webkit-transition:0.2s;
+    -moz-transition:0.2s;
+    -o-transition:0.2s;
+    -ms-transition:0.2s;
+
+}
+#sub-menu:hover {
+    transition:0.2s;
+    -webkit-transition:0.2s;
+    -moz-transition:0.2s;
+    -o-transition:0.2s;
+    -ms-transition:0.2s;
+}
+#menu_c_a {
+    position: relative;
+    margin: auto;
+    top: -7px;
+    width: 16px;
+    height: 9px;
+    z-index: 1000;
+}
+#copyright-painel {
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+    width: 210px;
+    height: auto;
+    z-index: 1001;
+    color: rgba(500,5005,500,0.6);
+
+    text-shadow: rgba(0,0,0,0.4) 1px 0px 0px;
+    font-size: 12px;
+}
+#b_l_contato {
+    position: relative;
+    margin-left: 27px;
+    margin-top: 20px;
+    width: 175px;
+    height: 23px;
+    z-index: 2;
+    background-color: #768E9E;
+    border-radius: 100px;
+
+    color: #FFF;
+    text-shadow: rgba(0,0,0,0.4) 1px 0px 0px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 4px;	
+}
+#dados_login {
+    position: absolute;
+    left: 267px;
+    top: 12px;
+    width: 233px;
+    height: 32px;
+    z-index: 1000;
+
+    text-shadow: rgba(0,0,0,0.4) 1px 0px 0px;
+    font-size: 13px;
+    color: #FFF;
+}
+#pag-inicial {
+    position: absolute;
+    padding: 20px 30px;
+    z-index: 1000;
+    background-color: #7ea671;
+    font-size: 14px;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#pag-inicial:hover {
+    transition: 0.2s;
+    background: #729765;
+}
+#btn_header {
+    position: absolute;
+    right: 30px;
+    top: 14px;
+    width: 239px;
+    height: 32px;
+    z-index: 1000;
+}
+#deslogar {
+    position: absolute;
+    left: 142px;
+    top: 0px;
+    width: 90px;
+    height: 27px;
+    z-index: 1000;
+    background-color: #FF3737;
+    text-shadow: rgba(0,0,0,0.4) 1px 0px 0px;
+
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 100px;
+    transition:0.2s;
+    -webkit-transition:0.2s;
+    -moz-transition:0.2s;
+    -o-transition:0.2s;
+    -ms-transition:0.2s;
+    cursor: pointer;
+}
+#deslogar:hover {
+    opacity: 0.7;
+    transition:0.2s;
+    -webkit-transition:0.2s;
+    -moz-transition:0.2s;
+    -o-transition:0.2s;
+    -ms-transition:0.2s;
+}
+#base_conteudo {
+    position: relative;
+    margin-left: 360px;
+    margin-top: 100px;
+    width: auto;
+    height: auto;
+    min-height: 300px;
+    z-index: 1000;
+    border-radius: 6px;
+    margin-right: 70px;
+    padding-bottom: 30px;
+}
+#bx_inicio {
+    position: absolute;
+    top: -47px;
+    width: auto;
+    height: 34px;
+    z-index: 99;
+    text-align: center;
+    color: #171717;
+    font-size: 18px;
+    padding-top: 13px;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 1px;
+}
+#aviso {
+    position: relative;
+    margin-top: 25px;
+    width: auto;
+    height: auto;
+    z-index: 1001;
+    background-color: #7ea671;
+    color: #FFF;
+    padding: 50px 60px;
+}
+#titulo_conteudo {
+    position: relative;
+    top: 10px;
+    width: auto;
+    height: auto;
+    z-index: 1002;
+    color: #444;
+    font-size: 15px;
+}
+#aviso_t {
+    position: relative;
+    width: auto;
+    height: auto;
+    z-index: 1001;
+    font-size: 13px;
+    line-height: 1.2em;
+    color: #FFF;
+}
+#btn_marcar {
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+    width: 100%;
+    height: 51px;
+    border-radius: 7px;
+    z-index: 1001;
+    background-color: #4CAF50;
+    cursor: pointer;
+    transition:0.2s;
+    -webkit-transition:0.2s;
+    -moz-transition:0.2s;
+    -o-transition:0.2s;
+    -ms-transition:0.2s;
+}
+#btn_marcar:hover {
+    transition:0.2s;
+    -webkit-transition:0.2s;
+    -moz-transition:0.2s;
+    -o-transition:0.2s;
+    -ms-transition:0.2s;
+    opacity: 0.8;	
+}
+#m_l {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 21px;
+    z-index: 1001;
+    background-color: #4CAF50;
+
+}
+#lido {
+    position: absolute;
+    left: 0px;
+    top: 14px;
+    width: 100%;
+    height: auto;
+    z-index: 1001;
+
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+}
+#b_m_l {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 290px;
+    height: 100%;
+    z-index: -1001;
+    background-color: #171717;
+}
+#avisos_lidos {
+    position: absolute;
+    right: 16px;
+    top: 7px;
+    width: 100px;
+    height: 24px;
+    z-index: 1001;
+    background-color: #C8D3D9;
+    color: #3D4F5F;
+
+    font-size: 13px;
+    text-align: center;
+    border-radius: 100px;
+    padding-top: 3px;
+}
+#conteudo {
+    position: relative;
+    top: 25px;
+    margin-right: 15px;
+    width: auto;
+    height: auto;
+    z-index: 1001;
+    padding-bottom: 80px;
+    font-size: 15px;
+    color: #515151;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 1px;
+
+}
+#barra_celulas {
+    position: relative;
+    top: 18px;
+    width: auto;
+    height: 44px;
+    z-index: 1001;
+    background-color: #171717;
+}
+#m_c_a {
+    position: relative;
+    margin-left: 26px;
+    margin-top: 13px;
+    width: 40px;
+    float: left;
+    height: auto;
+    z-index: 1001;
+    color: #FFF;
+    font-size: 14px;
+
+    text-shadow: rgba(0,0,0,0.4) 1px 0px 0px;
+}
+#m_c_t {
+    position: relative;
+    margin-left: 70px;
+    float: left;
+    top: 13px;
+    width: auto;
+    height: auto;
+    z-index: 1001;
+
+    font-size: 14px;
+    color: #FFF;
+    text-shadow: rgba(0,0,0,0.4) 1px 0px 0px;
+}
+#m_c_s {
+    position: relative;
+    margin-left: 190px;
+    float: left;
+    top: 13px;
+    width: auto;
+    height: auto;
+    z-index: 1001;
+    font-size: 14px;
+    text-shadow: rgba(0,0,0,0.4) 1px 0px 0px;
+    color: #FFF;
+}
+#m_c_d {
+    position: absolute;
+    right: 190px;
+    top: 13px;
+    width: auto;
+    height: auto;
+    z-index: 1001;
+
+    font-size: 14px;
+    color: #FFF;
+    text-shadow: rgba(0,0,0,0.4) 1px 0px 0px;
+}
+#m_c_o {
+    position: absolute;
+    right: 30px;
+    top: 13px;
+    width: auto;
+    height: auto;
+    z-index: 1001;
+
+    font-size: 14px;
+    color: #FFF;
+    text-shadow: rgba(0,0,0,0.4) 1px 0px 0px;
+}
+#base_celulas {
+    position: relative;
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+    z-index: 1001;
+}
+#dados_celula {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-top: 10px;
+    width: 100%;
+    height: 73px;
+    z-index: 1002;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+#id_foto {
+    width: 45px;
+    height: 45px;
+    z-index: 1001;
+    float: left;
+    background-image: url(../imgs/usuario002.png);
+    border-radius: 100%;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 23px;
+    margin-top: 15px;
+}
+#titulo_celula {
+    top: 15px;
+    width: 350px;
+    height: auto;
+    z-index: 1001;
+
+    font-size: 16px;
+    color: #555555;
+    position: relative;
+    margin-left: 70px;
+    float: left;
+}
+#status_celula {
+    top: 25px;
+    width: 54px;
+    height: 24px;
+    z-index: 1001;
+    background-color: #7ea671;
+    color: #FFF;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    margin-left: -10px;
+    padding-top: 5px;
+    float: left;
+}
+#data_celula {
+    top: 17px;
+    width: 100px;
+    height: auto;
+    z-index: 1001;
+    color: #545454;
+
+    font-size: 15px;
+    position: absolute;
+    right: 222px;
+}
+#opcoes_celula {
+    position: absolute;
+    right: 30px;
+    top: 26px;
+    width: auto;
+    height: auto;
+    z-index: 1001;
+}
+#d_d {
+    position: relative;
+    left: 0px;
+    margin-top: 30px;
+    width: 100%;
+    height: 30px;
+    z-index: 1001;
+}
+#input_padrao {
+    width: 100%;
+    background: rgba(0,0,0,0.06);
+    color:#515151; 
+    margin: 8px 0 0 0;
+    padding: 28px 37px;
+    font-size:14px;  
+    outline:0; 
+    border:none; 
+    display:block; 
+    position: relative;
+    transition: 0.2s;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 1px;
+}
+#input_padrao:focus {
+    transition: 0.2s;
+    background: rgba(0,0,0,0.11);
+}
+#submit_padrao {
+    background-color:#7ea671; 
+    cursor: pointer; 
+    color: #fff; 
+    font-size: 15px;  
+    outline:0; 
+    padding: 30px;
+    border:none;  
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 1px;
+}
+input[type=radio],
+input[type=checkbox] {
+    padding-left:5px;
+    padding-right:5px;
+    -webkit-appearance:button;
+    border: 0px #00F;
+    background-color:#DDDDDD;
+    color:#FFF;
+    white-space: nowrap;
+    overflow:hidden;
+    outline: none !important;
+    width:20px;
+    height:20px;
+    cursor: pointer;
+}
+
+input[type=radio]:checked,
+input[type=checkbox]:checked {
+    background: url(../imgs/checkbox.png);
+}
+
+input[type=radio]:hover,
+input[type=checkbox]:checked {
+    background: url(../imgs/checkbox.png);
+}
+#prox_pag {
+    position: relative;
+    margin-left: 8px;
+    float: left;
+    top: 0px;
+    width: 34px;
+    height: 28px;
+    z-index: 1002;
+    background-color: #D0D0D0;
+    font-size: 15px;
+    color: #666666;
+
+    border-radius: 100%;
+    padding-top: 7px;
+    text-align: center;
+    transition:0.2s;
+    -webkit-transition:0.2s;
+    -moz-transition:0.2s;
+    -o-transition:0.2s;
+    -ms-transition:0.2s;
+    cursor: pointer;
+}
+#prox_pag:hover {
+    background-color: #617B8B;
+    color: #FFF;
+    transition:0.2s;
+    -webkit-transition:0.2s;
+    -moz-transition:0.2s;
+    -o-transition:0.2s;
+    -ms-transition:0.2s;
+}
+#div_pags {
+    position: relative;
+    padding-bottom: 30px;
+    left: 0px;
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+    z-index: 1003;
+}

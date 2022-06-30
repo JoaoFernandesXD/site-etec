@@ -1,0 +1,14 @@
+RewriteEngine On
+
+ErrorDocument 404 /index.php?url=erro
+
+RewriteRule ^inicio/?$ index.php?url=inicio [NC,L]
+RewriteRule ^etec/?$ index.php?url=etec [NC,L]
+RewriteRule ^contato/?$ index.php?url=contato [NC,L]
+RewriteRule ^eventos/?$ index.php?url=eventos [NC,L]
+RewriteRule ^noticias/?$ index.php?url=noticias [NC,L]
+RewriteRule ^galerias/?$ index.php?url=galerias [NC,L]
+RewriteRule ^noticia\/(.+)\/(.+)?$ index.php?url=noticia&id=$1&titulo=$2
+RewriteRule ^curso\/(.+)\/(.+)?$ index.php?url=curso&id=$1&titulo=$2
+RewriteRule ^galeria\/(.+)\/(.+)?$ index.php?url=galeria&id=$1&titulo=$2
+RewriteRule ^evento\/(.+)\/(.+)?$ index.php?url=evento&id=$1&titulo=$2

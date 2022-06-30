@@ -1,0 +1,88 @@
+/* CSS by: Joao Fernandes */
+a:hover, a:visited, a:focus, a:active{ text-decoration: none; color: inherit; } 
+*{margin:0; padding:0;}
+body {
+	background-color:#617B8B;
+}
+/* === FONTS === */
+@font-face {
+    font-family: myroboto;
+	src:url(../fontes/roboto.ttf);
+}
+#barra-topo {
+	width:100%;
+	height:81px;
+	background-color:#3D4F5F;
+}
+.base-botao {
+	width:275px;
+	height:81px;
+	float:right;
+}
+.base-dados-usuario {
+	width:493px;
+	height:81px;
+	float:left;
+}
+.base-logado {
+	width:254px;
+	height:81px;
+	float:left;
+	margin-left:32px;
+}
+.base-dados {
+	width:176px;
+	height:81px;
+	background-color:#660;
+	float:left;
+	margin-left:12px;
+}
+.botao-sair {
+	width:90px !important;
+	height:32px;
+	background-color:#FF3737;
+	float:right;
+	border-radius:20px;
+	font-family:myroboto;
+	font-size:15px;
+	color:#FFFFFF;
+	margin-top:20px;
+	margin-right:20px;
+}
+.botao-verde {
+	width:129px !important;
+	height:32px;
+	background-color:#4CAF50;
+	float:right;
+	border-radius:20px;
+	font-family:myroboto;
+	font-size:15px;
+	color:#FFFFFF;
+	margin-top:20px;
+	margin-right:20px;
+}
+#base-font-dados-usuario {
+	width:176px;
+	height:35px;
+	margin-top:20px;
+	float:left;
+	margin-left:10px;
+	font-family:myroboto;
+	font-size:13px;
+	color:#FFFFFF;
+}
+.minha-foto {
+	width:50px;
+	height:50px;
+	border-radius:100%;
+	background-color:#FFF;
+	margin-top:15px;
+	float:left;
+	margin-left:10px;
+}
+.botao-sair:hover {
+	opacity: 0.9;
+}
+.botao-verde:hover {
+	opacity: 0.9;
+}

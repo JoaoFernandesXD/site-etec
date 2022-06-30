@@ -1,0 +1,1 @@
+﻿[{'key':'data','value':'This text is coming from somedata.js file.'}]
