@@ -1,5 +1,5 @@
 <?php
-	// Função site 2 Coelhos Comunicação e Cultura
+	
 		 function Encurta($texto, $tamanho){
 		 $palavra = strlen($texto);
 		 $nova_palavra = substr($texto, 0, $tamanho); 
