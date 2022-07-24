@@ -1,6 +1,6 @@
 # Site ETEC Leme
 
-<center><img src="https://user-images.githubusercontent.com/24917622/176570104-93701f96-9baa-4ffa-bd62-d63eab6bd583.png"</img></center>
+<center><img src="https://user-images.githubusercontent.com/24917622/180654339-bbd9b6d5-fcd4-45cf-b4dc-eced080a2555.png"</img></center>
 
 > Status: Concluido 🆗
 
